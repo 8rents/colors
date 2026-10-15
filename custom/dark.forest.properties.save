@@ -1,0 +1,56 @@
+# Name: Dark Forest
+# =================
+# Author: 8rents@gmail.com
+# GitHub.com: github.com/8rents/colors 
+# https://coolors.co/e6e8e6-ced0ce-9fb8ad-475841-3f403f
+
+# Basic Pallette
+# ===============
+
+# Light
+# ~~~~
+# White : #E6E8E6
+# Gray: #CED0CE
+# LGreen: 9FB8AD
+#
+# Dark
+# ~~~~
+# Olive: #47841
+# Gray: # 3F403F 
+
+# special
+foreground      = #E6E8E6
+background      = #
+cursor          = #9b9081
+
+# black
+color0  = #353535
+color8  = #5f5f5f
+
+# red
+color1  = #744b40
+color9  = #785850
+
+# green
+color2  = #6d6137
+color10 = #6f6749
+
+# yellow
+color3  = #765636
+color11 = #776049
+
+# blue
+color4  = #61564b
+color12 = #696057
+
+# magenta
+color5  = #6b4a49
+color13 = #6f5a59
+
+# cyan
+color6  = #435861
+color14 = #525f66
+
+# white
+color7  = #b3b3b3
+color15 = #cdcdcd
