@@ -43,40 +43,6 @@ Then run `./bin/colorscheme.sh`. You can also set the color scheme path as a par
 ./colorscheme-set.sh colors/custom/dark.colorscheme.properties
 ```
 
-## `colorscheme.sh` Usage
-
-> **Note:** The following example commands assume your current directory is the root of the `termux` repo.
-
-```
-./bin/colorscheme.sh colors/premad4
-```
-
-### Setting the `$scheme` variable first
-
-Either set `$scheme` to the path of the start up script. If `$scheme` is not set or is not a correct path to a `.properties` file `colorscheme.sh` will notify you and propt you for a correct path to a `.properties` file. 
-
-### Setting the path with the `--set` option
-
-Instead of declaring `$scheme` in advance, you can simply add the path to the `colors.properties` 
-file by running:
-
-```
-./bin/colorscheme.sh --file path/to/colors.properties
-```
-
-or you can even ommit the `--file` option all together and simply pass the path to the file as the first argument like so:
-
-**From the root of the `termux` repo**
-
-```
-./bin/colorscheme.sh path/to/colors.properties
-```
-
-
-```
-clear && rm colors.properties && ln -s $scheme colors.properties && termux-reload-settings && neofetch && lll
-```
-
 ---
 
 ## Custom Themes
